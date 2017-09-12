@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Registration page styles*/
+
+#signUpForm {
+    margin-top: 50px;
+    border: 1px solid #EFEFEF;
+    width: 500px
+}
+
+.head {
+    background: #EFEFEF;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    margin: 0;
+
+}
+
+#registrationError {
+    display: none;
+}
+
+#registrationForm {
+    padding: 10px 40px;
+}
+
+#sign-up-button {
+    float: right;
+    background: #E7E7E7;
+    width: 110px;
+    height: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Companies page styles*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.flex-item-1,
+.flex-item-3,
+.flex-item-4 {
+    border: 1px solid black;
+    width: 500px;
+    margin: 20px;
+}
+
+.flex-item-2 {
+    border: 1px solid black;
+    width: 500px;
+    margin: 20px;
+}
+
+#companies {
+    height: 215px;
+    padding: 13px;
+    overflow: auto;
+}
+
+.company-item {
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#total-companies {
+    font-size: 35px;
+    font-weight: 500;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    margin: 60px auto;
+    border-radius: 50%;
+}
+
+#company-partners {
+    width: 960px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.loader {
+    margin: 60px auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
